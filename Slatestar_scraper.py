@@ -17,10 +17,12 @@ import re
 from mechanize._opener import urlopen
 from mechanize._form import ParseResponse
 
-
 def slateStarText():
     text=''
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0103651a5fe328ac3d63ebc74ad4cc82870418c3
     sRoot='http://slatestarcodex.com/page/'
     f=open("Slatestar.txt","w")
     #begin loop that goes through list of urls
